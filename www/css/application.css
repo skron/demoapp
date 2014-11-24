@@ -1,0 +1,174 @@
+﻿html, body {
+  height: 100%;
+}
+
+body {
+  padding: 50px 0 0 0;
+	background: url("../img/background.jpg") 0 0 no-repeat;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.navmenu {
+  padding-top: 50px;
+}
+
+.navbar {
+  display: block;
+  text-align: center;
+}
+.navbar-brand {
+  display: inline-block;
+  float: none;
+}
+.navbar-toggle {
+  position: absolute;
+  float: left;
+  margin-left: 15px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+@media (min-width: 1px) {
+  .navbar-toggle {
+    display: block !important;
+  }
+}
+ /* tlactika a ikony ---------------------- */
+.border {
+	border-left: 1px solid #324250;
+	border-top: 1px solid #324250;
+	border-bottom: 1px solid #112434;
+	border-right: 1px solid #112434;
+	padding: 0 14px !important;
+}
+
+.button-wrapper-ok, .button-wrapper-alert {
+	display: inline-block;
+	width: 62.24%;
+	background: url("../img/button_ok.svg") 50% 50% no-repeat;
+	background-size: contain;
+}
+
+.button-wrapper-ok > .icon, .button-wrapper-alert > .icon {
+	ackground: url("../img/icon_bcg_ok.png") 50% 50% no-repeat;
+	ackground-size: contain;
+	background: #fff;
+	width: 78%;
+	height: 78%;
+	margin: 11% 0 11% 11%;
+	padding: 15% 0;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(124, 147, 10, 0.5), inset 0px 1px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 1px 1px rgba(124, 147, 10, 0.5), inset 0px 1px 8px rgba(0, 0, 0, 0.4);
+}
+
+.button-wrapper-ok > .icon > img, .button-wrapper-alert > .icon > img{
+	width: 60%;
+}
+
+.button-wrapper-alert {
+	background: url("../img/button_alert.svg") 50% 50% no-repeat;
+	background-size: contain;
+}
+
+.button-wrapper-alert > .icon {
+	ackground: url("../img/icon_bcg_alert.png") 50% 50% no-repeat;
+	ackground-size: contain;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(195, 23, 0, 0.4), inset 0px 1px 5px rgba(0, 0, 0, 0.45);
+	box-shadow: 0px 0px 1px 1px rgba(195, 23, 0, 0.4), inset 0px 1px 8px rgba(0, 0, 0, 0.45);
+}
+
+/* navbary ------------------------------ */
+
+.navbar-default {
+	background: url("../img/background.jpg") 50% 75% no-repeat;
+	border-bottom: 1px solid #2d3544;
+box-shadow: 0px 5px 5px 0px rgba(13, 26, 33, 0.5);
+-webkit-box-shadow: 0px 5px 5px 0px rgba(13, 26, 33, 0.5);
+-moz-box-shadow: 0px 5px 5px 0px rgba(13, 26, 33, 0.5);
+-o-box-shadow: 0px 5px 5px 0px rgba(13, 26, 33, 0.5);
+}
+
+.navmenu {
+	background: url("../img/background.jpg") 0 0 no-repeat;
+	border-right: 1px solid #324250;
+	box-shadow: 5px 0px 5px 0px rgba(13, 26, 33, 0.5);
+-webkit-box-shadow: 5px 0px 5px 0px rgba(13, 26, 33, 0.5);
+-moz-box-shadow: 5px 0px 5px 0px rgba(13, 26, 33, 0.5);
+-o-box-shadow: 5px 0px 5px 0px rgba(13, 26, 33, 0.5);
+}
+
+.navmenu ul {
+	border-bottom: 1px solid #324250;
+}
+
+.navmenu li {
+	border-top: 1px solid #324250;
+	border-bottom: 1px solid #112434;
+	height: 78px;
+	clear: both;
+}
+
+.navmenu li.alert{
+	margin: 0px;
+	padding: 0px;
+	border-radius: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+.navmenu li a{
+	float: left;
+	display: block;
+	width: 275px;
+	border-right: 1px solid #112434;
+	line-height: 36px;
+	padding: 20px;
+	font-size: 18px;
+}
+
+.navmenu li span {
+	display: block;
+	float: right;
+	width: 24px;
+	height: 76px;
+	padding: 4px;
+	border-left: 1px solid #324250;
+background-image: -moz-linear-gradient(top, #bee600, #7b920a);
+background-image: -o-linear-gradient(top, #bee600, #7b920a);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#bee600), to(#7b920a));
+background-image: -webkit-linear-gradient(top, #bee600, #7b920a);
+background-image: linear-gradient(top, #bee600, #7b920a);
+-webkit-background-clip: content-box;
+background-clip: content-box;
+/*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+
+}
+
+.navmenu li.alert span {
+	display: block;
+	float: right;
+	width: 24px;
+	height: 76px;
+	padding: 4px;
+	border-left: 1px solid #324250;
+background-image: -moz-linear-gradient(top, #ffc400, #c21600);
+background-image: -o-linear-gradient(top, #ffc400, #c21600);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffc400), to(#c21600));
+background-image: -webkit-linear-gradient(top, #ffc400, #c21600);
+background-image: linear-gradient(top, #ffc400, #c21600);
+-webkit-background-clip: content-box;
+background-clip: content-box;
+/*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+}
+
+.navmenu-default .navmenu-nav > .active > a, .navmenu-default .navmenu-nav > .active > a:hover, .navmenu-default .navmenu-nav > li >a:hover {
+	background: rgba(36, 139, 176, 0.15) !important;
+	color: #fff;
+}
