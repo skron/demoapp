@@ -164,7 +164,7 @@
 .navmenu-fixed-right,
 .navbar-offcanvas {
   right: 0;
-  left: auto;
+  left: auto !important;
   border-width: 0 0 0 1px;
 }
 .navmenu-nav {
@@ -479,6 +479,11 @@
 .offcanvas-lg {
   display: block;
 	left: -275px;
+}
+
+.disasters.offcanvas-lg {
+  display: block;
+	right: -300px;
 }
 
 .offcanvas-lg.in {

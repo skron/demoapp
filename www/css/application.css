@@ -104,6 +104,23 @@ box-shadow: 0px 5px 5px 0px rgba(13, 26, 33, 0.5);
 -o-box-shadow: 5px 0px 5px 0px rgba(13, 26, 33, 0.5);
 }
 
+.disasters.navmenu {
+	background: url("../img/background.jpg") 0 0 no-repeat;
+	border-left: 1px solid #324250;
+	box-shadow: -5px 0px 5px 0px rgba(13, 26, 33, 0.5);
+-webkit-box-shadow: -5px 0px 5px 0px rgba(13, 26, 33, 0.5);
+-moz-box-shadow: -5px 0px 5px 0px rgba(13, 26, 33, 0.5);
+-o-box-shadow: -5px 0px 5px 0px rgba(13, 26, 33, 0.5);
+}
+
+.navbar-toggle-right {
+	float: right !important;
+	margin-right: 15px;
+  position: absolute;
+	right: 0;
+	top: 0;
+}
+
 .navmenu ul {
 	border-bottom: 1px solid #324250;
 }
